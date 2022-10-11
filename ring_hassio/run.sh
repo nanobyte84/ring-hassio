@@ -6,6 +6,6 @@ export RING_PORT="$(jq --raw-output '.port' $CONFIG_PATH)"
 
 cd /ring-hassio/ring_hassio
 echo "NANO test"
-while true; echo "."; sleep 2; done
+while true; do echo "."; sleep 2; done
 
 #node livestream.js
