@@ -12,8 +12,8 @@
       "armv7",
       "i386"
     ],
-    "init":"false",
-    "host_pid": "true",
+    "init":false,
+    "host_pid":true,
     "boot":"auto",
     "ports": {
         "3000/tcp": 3000
