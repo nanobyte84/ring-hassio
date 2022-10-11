@@ -91,3 +91,7 @@ To do this set up a sensor and switch:
 
 [patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
 [patreon]: https://www.patreon.com/dutchdatadude
+
+
+TEST s6-overlay-suexec: fatal: can only run as pid 1
+
