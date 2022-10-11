@@ -5,7 +5,6 @@ export CAMERA_NAME="$(jq --raw-output '.camera_name' $CONFIG_PATH)"
 export RING_PORT="$(jq --raw-output '.port' $CONFIG_PATH)"
 
 cd /ring-hassio/ring_hassio
-echo "NANO test"
-while true; do echo "."; sleep 2; done
-
-#node livestream.js
+echo "START livestream.js"
+#while true; do echo "."; sleep 2; done
+node livestream.js
